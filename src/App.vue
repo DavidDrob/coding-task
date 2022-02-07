@@ -1,7 +1,7 @@
 <template>
-  <Header />
+  <Header :navItems="links" />
   <Main />
-  <Footer />
+  <Footer :navItems="links" />
 </template>
 
 <script>
@@ -14,6 +14,24 @@ export default {
     Header,
     Main,
     Footer,
+  },
+  data() {
+    return {
+      links: [
+        {
+          name: "Vue",
+          link: "https://vuejs.org/",
+        },
+        {
+          name: "Vite",
+          link: "https://vitejs.dev/",
+        },
+        {
+          name: "Tailwind",
+          link: "https://tailwindcss.com/",
+        },
+      ],
+    };
   },
 };
 </script>

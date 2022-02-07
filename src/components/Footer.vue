@@ -3,9 +3,11 @@
     <footer class="w-5/6 m-auto grid grid-cols-3 grid-rows-1 gap-0">
       <div><img src="../assets/logo.png" alt="logo" /></div>
       <nav class="flex flex-col justify-between">
-        <p class="cursor-pointer">Item 1</p>
-        <p class="cursor-pointer">Item 2</p>
-        <p class="cursor-pointer">Item 3</p>
+        <p v-for="(item, index) in navItems" :key="index">
+          <a :href="item.link">
+            {{ item.name }}
+          </a>
+        </p>
       </nav>
       <div class="w-1/2 flex flex-col justify-between">
         <div class="flex justify-between py-2">
@@ -30,5 +32,8 @@
 </template>
 
 <script>
-export default {};
+export default {
+  name: "Footer",
+  props: ["navItems"],
+};
 </script>
