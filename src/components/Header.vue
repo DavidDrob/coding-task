@@ -4,7 +4,7 @@
       <div class="w-16">
         <img src="../assets/logo.png" alt="logo" />
       </div>
-      <nav class="flex w-1/6 justify-between">
+      <nav class="flex w-1/2 md:w-2/6 lg:w-1/6 justify-between">
         <p v-for="(item, index) in navItems" :key="index">
           <a :href="item.link">
             {{ item.name }}
