@@ -1,7 +1,20 @@
-# Vue 3 + Vite
+# Pokemon coding task
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### Setup
 
-## Recommended IDE Setup
+1. Clone the repository
+`git clone https://github.com/DavidDrob/coding-task.git`
+2. Change directory
+`cd coding-task`
+3. Install dependencies
+`npm install` or `yarn`
+4. Start the server
+`npm run dev`
+5. Go to localhost:3001
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+### Build
+
+1. Build the dist folder
+`npm run build`
+2. Preview the website
+`npm run preview`
