@@ -19,16 +19,16 @@ export default {
     return {
       links: [
         {
-          name: "Vue",
-          link: "https://vuejs.org/",
+          name: "API",
+          link: "https://pokeapi.co/",
         },
         {
-          name: "Vite",
-          link: "https://vitejs.dev/",
+          name: "Games",
+          link: "https://www.pokemon.com/us/pokemon-video-games/",
         },
         {
-          name: "Tailwind",
-          link: "https://tailwindcss.com/",
+          name: "Collectibles",
+          link: "https://www.amazon.com/Pokemon-Collectibles/s?k=Pokemon+Collectibles",
         },
       ],
     };

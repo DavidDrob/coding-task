@@ -1,10 +1,10 @@
 <template>
-  <div class="bg-stone-900 text-white py-4">
+  <div class="bg-slate-900 text-white py-4">
     <footer class="w-5/6 m-auto grid grid-cols-3 gap-0">
       <div class="flex items-center">
-        <img src="../assets/logo.png" alt="logo" />
+        <img src="../assets/logo.png" alt="logo" class="md:w-1/2" />
       </div>
-      <nav class="flex flex-col justify-between">
+      <nav class="flex flex-col justify-between md:h-1/2">
         <p v-for="(item, index) in navItems" :key="index">
           <a :href="item.link">
             {{ item.name }}
